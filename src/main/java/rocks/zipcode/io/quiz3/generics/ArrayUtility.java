@@ -13,7 +13,8 @@ public class ArrayUtility<SomeType> {
     }
 
     public SomeType findOddOccurringValue() {
-        return null;
+
+       return null;
     }
 
     public SomeType findEvenOccurringValue() {
@@ -21,7 +22,10 @@ public class ArrayUtility<SomeType> {
     }
 
     public Integer getNumberOfOccurrences(SomeType valueToEvaluate) {
+
+
         return null;
+
     }
 
     public SomeType[] filter(Function<SomeType, Boolean> predicate) {

@@ -9,10 +9,15 @@ import java.util.List;
 public class StringUtils {
     public static String capitalizeNthCharacter(String str, Integer indexToCapitalize) {
         return null;
+
     }
 
     public static Boolean isCharacterAtIndex(String baseString, Character characterToCheckFor, Integer indexOfString) {
-        return null;
+        String charAtIndex = characterToCheckFor.toString(baseString.charAt(indexOfString));
+        if(charAtIndex.equalsIgnoreCase(baseString)){
+            return true;
+        }
+        return false;
     }
 
     public static String[] getAllSubStrings(String string) {
@@ -20,6 +25,9 @@ public class StringUtils {
     }
 
     public static Integer getNumberOfSubStrings(String input){
-        return null;
+        int n = input.length();
+        return (n*(n+1)/2) - 1;
+
+
     }
 }
