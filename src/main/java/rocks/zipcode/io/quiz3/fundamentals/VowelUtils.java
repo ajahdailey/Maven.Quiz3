@@ -4,6 +4,9 @@ package rocks.zipcode.io.quiz3.fundamentals;
  * @author leon on 09/12/2018.
  */
 public class VowelUtils {
+
+
+
     public static Boolean hasVowels(String word) {
        char[] letters = word.toCharArray();
        for(int i =0; i<letters.length; i++){
